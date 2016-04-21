@@ -1,0 +1,70 @@
+@body-bg: url("../img/bg-repeat.jpg")repeat  ;
+
+.shogazi-detail {
+  #fragezeichen{
+    margin:.375rem 0rem .25rem 0rem;
+    display: inline-block;
+    margin:0 auto;
+    .unitize(font-size, 14);
+
+  }
+  .product--details{
+    .configurator--form {
+
+      .unitize-padding(10, 0);
+
+      .configurator--label{
+        .unitize(margin-bottom, 8);
+        float: left;
+        width:50%;
+        font-weight: 500;
+        font-size: 0.9em;
+        line-height: 36px;
+        letter-spacing: .17em;
+
+      }
+
+      .js--fancy-select {
+        width: 50%;
+        .unitize(margin-bottom, 10);
+      }
+
+    }
+  }
+}
+
+@media screen and (min-width: @phoneLandscapeViewportWidth) {
+  .shogazi-detail {
+    .custom-detail--actions {
+      .btn {
+        .unitize(margin-right, 5);
+        display: inline-block;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: @tabletLandscapeViewportWidth) {
+  .shogazi-detail {
+    .custom-detail--description {
+      margin: 0 auto;
+      width: 75%;
+    }
+  }
+}
+
+
+//Alert Matratzenkonfigurator
+
+@media screen and (min-width: @tabletLandscapeViewportWidth) {
+  #konfigurator--textbox{
+    .unitize(font-size, 16);
+    .unitize(line-height, 25);
+    .unitize-margin(2, 0, 2, 0);
+    font-weight: 100;
+
+    margin: 20px 0px 20px 0px ;
+  }
+}
+
+

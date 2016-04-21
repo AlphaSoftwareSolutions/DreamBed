@@ -1,0 +1,67 @@
+
+
+/** Change border color to match the new background image */
+#header { border-bottom: 1px solid #aaa  }
+#footer_wrapper { border-top: 1px solid #aaa }
+
+
+.js--fancy-select{
+    width: 150px;
+}
+
+#thisisatest{
+    border-right-color: #666;
+    background-color:blue;
+
+}
+
+.configurator--label{
+    float: left;
+    width: 30%;
+
+
+}
+    /** Reformat the options */
+.outer_my_options {
+    background: #262626;
+    position: relative;
+}
+.inner_my_options {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+.my_options {
+    position: relative;
+    left: 580px; top: auto;
+    background: transparent;
+    border: 0 none;
+    margin: 0 auto;
+    padding: 10px 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+    width: 420px;
+}
+.my_options, #shopnavi { float: left }
+
+body .my_options a, .my_options .service { color: #aaa !important }
+.my_options a.account,
+.my_options a.note{
+    border-right-color: #666;
+}
+#topbar { border-left-color: #666 }
+.my_options #topbar input.active { color: #fff }
+
+/** Remove background image from the "my account" link */
+.my_options a.account, .my_options a.account:hover{
+    background: transparent;
+    padding-left: 0
+}
+/** Reposition the service menu */
+ul#servicenavi { top: 60px !important }
+
+
+
+
